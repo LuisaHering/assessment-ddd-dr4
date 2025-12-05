@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gcp:
+      pubsub:
+        enabled: false
+      core:
+        enabled: false
+  autoconfigure:
+    exclude:
+      - com.google.cloud.spring.autoconfigure.pubsub.GcpPubSubAutoConfiguration
+      - com.google.cloud.spring.autoconfigure.pubsub.GcpPubSubEmulatorAutoConfiguration
+      - com.google.cloud.spring.autoconfigure.core.GcpContextAutoConfiguration
