@@ -1,0 +1,10 @@
+com\infnet\petfriends_transporte\repository\EntregaRepository.class
+com\infnet\petfriends_transporte\config\StreamConfig.class
+com\infnet\petfriends_transporte\service\TransporteService.class
+com\infnet\petfriends_transporte\controller\TestController.class
+com\infnet\petfriends_transporte\events\EntregaCriadaEvent.class
+com\infnet\petfriends_transporte\domain\Entrega.class
+com\infnet\petfriends_transporte\domain\StatusEntrega.class
+com\infnet\petfriends_transporte\domain\vo\CodigoRastreio.class
+com\infnet\petfriends_transporte\events\PedidoEmPreparacaoEvent.class
+com\infnet\petfriends_transporte\PetfriendsTransporteApplication.class
